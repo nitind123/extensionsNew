@@ -1,5 +1,3 @@
-resources:
-  - name: ubuntu_18_static_vm
-    type: SampleResource
-    configuration:
-      foo: bar (edited) 
+configuration:
+  foo:
+    type: String
