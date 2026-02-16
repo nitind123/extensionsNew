@@ -19,6 +19,7 @@ jobs:
           JFROG_CLI_LOG_LEVEL: DEBUG
       - name: Checkout
         uses: actions/checkout@v2
+        
       - name: deploy_artifact
         run: |
           jf --version
