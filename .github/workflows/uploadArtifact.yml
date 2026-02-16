@@ -4,7 +4,6 @@ on:
       id:
         description: "run identifier"
         required: false
-
 jobs:
   upload:
     name: "artifact-view-poc"
